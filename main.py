@@ -54,6 +54,7 @@ def main(page: ft.Page):
         pedir_input = ft.TextField(
             label="Introduce el PID",
             keyboard_type=ft.KeyboardType.NUMBER,
+            width=400,
             border_color="#4a6fa5",
             focused_border_color="#166084",
             bgcolor="#333333",  # Fondo gris oscuro
